@@ -1,0 +1,17 @@
+{
+  "name": "storybook-pwa",
+  "version": "1.0.0",
+  "description": "A PWA for creating and reading stories",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "lite-server"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "workbox-cli": "^6.1.5"
+  }
+}
